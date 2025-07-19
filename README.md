@@ -2,9 +2,7 @@
 
 A modern, responsive movie streaming platform clone built with React and Ant Design, featuring integration with MovieBox.ng for seamless movie watching experience.
 
-![MovieBox Clone](https://img.shields.io/badge/React-18.0+-blue.svg)
-![Ant Design](https://img.shields.io/badge/Ant%20Design-5.0+-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 ## 🌟 Features
 
@@ -17,20 +15,7 @@ A modern, responsive movie streaming platform clone built with React and Ant Des
 - **🔐 Secure Streaming**: Auth-based streaming URLs for secure video playback
 - **📊 Real-time Data**: Integration with multiple movie databases
 
-## 🚀 Live Demo
 
-[View Live Demo](https://your-demo-url.com) *(Replace with your actual demo URL)*
-
-## 📸 Screenshots
-
-### Homepage
-![Homepage](./docs/screenshots/homepage.png)
-
-### Movie Details
-![Movie Details](./docs/screenshots/movie-details.png)
-
-### Video Player
-![Video Player](./docs/screenshots/video-player.png)
 
 ## 🛠️ Technology Stack
 
@@ -210,13 +195,7 @@ This project is for educational purposes only. It demonstrates web development t
 - **TMDB** - For movie database API
 - **React Team** - For the amazing framework
 
-## 📞 Support
 
-If you have any questions or need help:
-
-- **Create an Issue**: [GitHub Issues](https://github.com/yourusername/moviebox-clone/issues)
-- **Email**: your-email@example.com
-- **Discord**: YourDiscord#1234
 
 ## 🔄 Changelog
 
@@ -230,9 +209,7 @@ If you have any questions or need help:
 
 ---
 
-**⭐ If you found this project helpful, please give it a star!**
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
 
 ### Code Splitting
 
