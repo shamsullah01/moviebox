@@ -5,9 +5,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0f0f0f;
+  color: white;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Override Ant Design dark theme */
+.ant-layout {
+  background: #0f0f0f !important;
+}
+
+.ant-layout-header {
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+.ant-card {
+  background: #1a1a1a !important;
+  border-color: #333 !important;
+}
+
+.ant-card-meta-title {
+  color: white !important;
+}
+
+.ant-card-meta-description {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.ant-typography {
+  color: white !important;
+}
+
+.ant-input {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: #333 !important;
+  color: white !important;
+}
+
+.ant-input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Remove any default margins and paddings that might interfere */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
 }
